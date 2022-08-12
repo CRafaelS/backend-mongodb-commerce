@@ -1,4 +1,3 @@
-// db.produtos.updateMany({ nome: "Big Mac" }, { $currentDate: { ultimaModificacao: { $type: "timestamp" }} });
 db.produtos.updateMany({ nome: "Big Mac" },
 { $currentDate: { ultimaModificacao: true } });
 
